@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css/all.min.css">
+    <link rel="stylesheet" href="style.css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css/inf.css">
+</head>
+
+<body>
+    
+    <nav class="navbar  rounded-5  bg-dark  fixed-top "data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> GAME REVIEWS</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">GAME BAR</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">MMORPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHOOTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SUPERHERO</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PIXEL</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="spinner" class="text-center w-50 mx-auto p-5 my-4 text-white ">
+            <i class="fas fa-spinner fa-spin fa-5x "></i>
+        </div>
+        <div id="table" class="container">
+            <div class="row  row-cols-1 row-cols-md-3 g-5 gy-2">
+                
+        </div>
+    </header>
+
+
+
+<section class="details position-fixed top-0 start-0 w-100 h-100 d-none" id="details">
+<div class="container">
+
+    
+<header class="hstack justify-content-between">
+<h1 class="text-center h3  py-4">Details Game</h1>
+<button   id="Btn-close" class="btn-close btn-close-white" onclick="btn()"></button>
+</header>
+
+
+
+<div class="row g-4" id="DetailsContent" >
+
+</div>
+
+
+
+</div>
+</section>
+
+
+    
+    <script src="style.css/bootstrap.bundle.js"></script>
+    <script src="style.css/jquery-3.7.1.min.js"></script>
+    <script src="style.css/main.js"></script>
+</body>
+
+</html>

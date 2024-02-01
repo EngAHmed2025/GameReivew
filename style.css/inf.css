@@ -1,0 +1,52 @@
+body{
+background-image:url(../images/game.jpeg ), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ;
+background-position: center center;
+background-size: contain;
+}
+
+.navbar-brand{
+color:white;
+}
+
+.nav-link{
+color:chocolate ;
+}
+
+.container{
+padding-top: 65px;
+}
+
+.card{
+
+transition: all 0.5s ease-in-out;
+filter: brightness(60%);
+}
+.card:hover{
+transform: scale(1.1);
+overflow:hidden ;
+filter: brightness(100%);
+cursor: pointer;
+}
+
+
+.details{
+background-color:cadetblue;
+z-index: 9999999999;
+overflow: visible   ;
+}
+
+
+.line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+
